@@ -1,0 +1,5 @@
+G:\ISMT_August,2016\Advanced Programming\Videos\Project\OnlineLibrary\OnlineLibrary\bin\OnlineLibrary.dll
+G:\ISMT_August,2016\Advanced Programming\Videos\Project\OnlineLibrary\OnlineLibrary\bin\OnlineLibrary.pdb
+G:\ISMT_August,2016\Advanced Programming\Videos\Project\OnlineLibrary\OnlineLibrary\obj\Debug\OnlineLibrary.csprojResolveAssemblyReference.cache
+G:\ISMT_August,2016\Advanced Programming\Videos\Project\OnlineLibrary\OnlineLibrary\obj\Debug\OnlineLibrary.dll
+G:\ISMT_August,2016\Advanced Programming\Videos\Project\OnlineLibrary\OnlineLibrary\obj\Debug\OnlineLibrary.pdb

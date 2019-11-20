@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LibraryMasterPage.master.cs" Inherits="OnlineLibrary.LibraryMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online Library Management System</title>
+   <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h1 style="background:none;text-align:center;margin:0px auto;position:absolute;top:30px;left:30%;font-family:Verdana,'MS Reference Sans Serif';color:#f5f0f0;">ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
+        </div><!--end of header-->
+        <div class="contentArea">
+            <div class="leftContent">
+                <div id="menu">
+                    <ul>
+                        <li><a href="Dashboard.aspx">DASHBOARD</a></li>
+                        <li><a href="Category.aspx">CATEGORY</a></li>
+                        <li><a href="BooksEntry.aspx">BOOKS</a></li>
+                        <li><a href="Member.aspx">MEMBERS</a></li>
+                        <li><a href="Issue.aspx">ISSUE</a></li>
+                        <li><a href="#">RETURNS</a></li>
+                        <li><a href="#">REPORT</a></li>
+                    </ul>
+                </div><!--end of menu-->
+            </div><!--end of leftContent-->
+    <div class="mainContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div><!--end of mainContent-->
+            </div><!--end of contentArea-->
+        <div class="footer"></div><!--end of footer-->
+    </form>
+</body>
+</html>

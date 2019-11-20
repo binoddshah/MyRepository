@@ -1,0 +1,218 @@
+﻿body, * {
+    margin: 0px;
+    padding: 0px;
+    background: #f9fbe8;
+}
+
+.login {
+    margin: 5px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 250px;
+    width: 600px;
+}
+
+    .login .txtBox {
+        font-size: 2rem;
+        font-family: Verdana,Arial,'MS Reference Sans Serif';
+        text-align: center;
+        height: 60px;
+        width: 600px;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+.button {
+    font-size: 2rem;
+    font-family: Verdana,Arial,'MS Reference Sans Serif';
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+}
+/* Applying style on Master Page*/
+.header {
+    height: 80px;
+    width: 100%;
+    background: #01081e;
+}
+
+.contentArea {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+    .contentArea .leftContent {
+        height: 600px;
+        width: 15%;
+        background: #808080;
+        float: left;
+    }
+
+    .contentArea .mainContent {
+        height: 600px;
+        width: 85%;
+        background: #f9fbe8;
+        color: #000;
+        float: left;
+    }
+
+.footer {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+#menu {
+    background: #808080;
+}
+
+    #menu ul {
+        background: #808080;
+        list-style-type: none;
+        text-align: left;
+    }
+
+        #menu ul li {
+            padding: 5px;
+            margin-top: 5px;
+            height: 40px;
+            background: #f9fbe8;
+            border-right: 2px solid black;
+        }
+
+            #menu ul li a {
+                text-decoration: none;
+                line-height: 40px;
+                color: #000;
+            }
+
+                #menu ul li a:hover {
+                    display: block;
+                    background: #000;
+                    color: #fff;
+                }
+
+#dashboard {
+    height: 600px;
+    background: #d2f2ec;
+    margin-top: 0px;
+}
+
+    #dashboard .dashboardContent {
+        height: 150px;
+        width: 300px;
+        background: #693737;
+        margin: 10px;
+        border: 2px solid white;
+        text-align: center;
+        float: left;
+    }
+
+.p {
+    text-align: center;
+    font-family: Verdana,sans-serif,'MS Reference Sans Serif';
+    line-height: 150px;
+}
+/* Css for Category*/
+.centeredContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid #693737;
+}
+
+    .centeredContent td {
+        font-size: 1.5rem;
+        font-family: Verdana,sans-serif,'MS Reference Sans Serif';
+    }
+
+    .centeredContent .text {
+        font-size: 1.5rem;
+        font-family: Verdana,sans-serif,'MS Reference Sans Serif';
+        height: 40px;
+        text-align: center;
+    }
+
+    .centeredContent .btn {
+        height: 50px;
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-family: Verdana,sans-serif,'MS Reference Sans Serif';
+        background: #693737;
+        color: #fff;
+        line-height: 40px;
+        width: 200px;
+        border: 2px solid white;
+    }
+/*Style for Issue Books*/
+#upper {
+    height: 275px;
+    width: 100%;
+    margin: 0 auto;
+    background: #e9e3e3;
+}
+
+#mid {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background: maroon;
+}
+
+#lower {
+    height: 275px;
+    width: 100%;
+    margin: 0 auto;
+    background: #e9e3e3;
+}
+
+#upper #upper_left {
+    height: 275px;
+    width: 50%;
+    float: left;
+    background: #a7c3e9;
+}
+
+    #upper #upper_left .top {
+        height: 50px;
+        width: 100%;
+        background: #fff;
+    }
+
+    #upper #upper_left .bottom {
+        height: 225px;
+        width: 100%;
+        background: #808080;
+    }
+
+#upper #upper_right {
+    height: 275px;
+    width: 50%;
+    float: left;
+    background: #f9fbe8;
+}
+
+    #upper #upper_right .urtop {
+        height: 50px;
+        width: 100%;
+        background: #a7c3e9;
+    }
+
+    #upper #upper_right .urbottom {
+        height: 225px;
+        width: 100%;
+      
+        background:#cc6e61;
+    }
